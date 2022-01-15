@@ -15,5 +15,5 @@ function dis(val)
 		//function that clear the display
 		function clr()
 		{
-			document.getElementById("result").value = "";
+			document.getElementById("result").value = ""; 
 		}
