@@ -8,6 +8,7 @@ function dis(val)
 		{
 			let x = document.getElementById("result").value;
 			let y = Math.round(eval(x));
+			    y = Number.parseFloat(y).toFixed(2);
 			document.getElementById("result").value = y;
 		}
 		
