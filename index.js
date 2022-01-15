@@ -7,7 +7,7 @@ function dis(val)
 		function solve()
 		{
 			let x = document.getElementById("result").value;
-			let y = Math.round(eval(x));
+			let y = eval(x);
 			    y = Number.parseFloat(y).toFixed(2);
 			document.getElementById("result").value = y;
 		}
